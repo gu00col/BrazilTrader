@@ -189,7 +189,19 @@
         text-shadow: 2px 2px 1px #161616;
         color: #ffffff;
     }
+    @media (max-width: 991.98px) {
+        top: 18%  !important;
+        height: 200px !important;
+        .hero-title {
+            font-size: 22px !important;
+        }
+        .hero-subtitle {
+            font-size: 16px !important;
+        }
+    }
+
 }
+
 
 // client images
 .client-images img {
